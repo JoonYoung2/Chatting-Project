@@ -1,68 +1,42 @@
-# -------------------------
-# Java (Spring Boot)
-# -------------------------
-/backend/target/
-/backend/.classpath
-/backend/.project
-/backend/.settings/
-/backend/.idea/
-/backend/*.iml
-/backend/.mvn/
-/backend/logs/
-/backend/*.log
-/backend/.env
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
 
-# Maven Wrapper
-/backend/mvnw
-/backend/mvnw.cmd
-
-# IntelliJ
-*.iml
-*.ipr
-*.iws
-.idea/
-
-# Eclipse
-*.classpath
-*.project
-*.settings/
-
-# STS
-.apt_generated/
+### STS ###
+.apt_generated
 .classpath
 .factorypath
 .project
-.settings/
+.settings
 .springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
 
-# Gradle (if using)
-/backend/build/
-/backend/.gradle
-/backend/gradle-app.setting
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
 
-# -------------------------
-# Node (React)
-# -------------------------
-/frontend/node_modules/
-/frontend/build/
-/frontend/.env
-/frontend/.next/
-/frontend/.cache/
-/frontend/dist/
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
 
-# React specific
-/frontend/.DS_Store
-/frontend/npm-debug.log*
-/frontend/yarn-debug.log*
-/frontend/yarn-error.log*
-/frontend/package-lock.json
-/frontend/pnpm-lock.yaml
+### VS Code ###
+.vscode/
 
-# Editor / OS files
-*.log
-*.swp
-*.swo
-*.tmp
-*.bak
-*.DS_Store
-Thumbs.db
+#QClass
+generated/
+company_upload/
+upload/
