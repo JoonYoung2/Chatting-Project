@@ -35,8 +35,3 @@ out/
 
 ### VS Code ###
 .vscode/
-
-#QClass
-generated/
-company_upload/
-upload/
